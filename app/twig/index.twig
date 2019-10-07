@@ -5,7 +5,7 @@
     <head>
 
         {# Site Title #}
-        <title>Clone: Playground</title>
+        <title>Talent Cloud: HR Homepage</title>
         
         {# Charset #}
         <meta charset="utf-8" />
@@ -50,18 +50,117 @@
     {# Playground's Body #}
     <body data-clone>
 
-        <div class="pg-hero">
-            <div data-c-radius="rounded">
-                <div data-c-background="black(100)" data-c-color="white" data-c-padding="all(double)">
-                    <h1 data-c-font-size="h1" data-c-margin="bottom(normal)" data-c-font-weight="bold">Welcome to Clone Playground!</h1>
-                    <p data-c-margin="bottom(half)">Playground gives you access to everything you need to have some fun prototyping things with Clone. You can stick to regular HTML, or you can dive into the deep end and build some fun stuff with JavaScript, Sass, and Twig.</p>
-                    <p>Take a peek inside <span data-c-font="mono">app/twig/index.twig</span> to get started!</p>
-                </div>
-                <div class="pg-alert" data-c-color="white" data-c-padding="tb(normal) rl(double)">
-                    <p>Need a refresher on how to use Clone? <a href="https://designwithclone.ca/" title="Open the Clone documentation in a new window or tab." target="_blank">Check out the docs</a>.</p>
+        <header class="hero" data-c-overlay="black(90)" data-c-padding="tb(triple)" style="background-image: url('https://images.unsplash.com/photo-1570005435342-7541f89273e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');">
+            <div data-c-container="large" data-c-align="base(center)">
+                <h1 class="logotype" data-c-font-size="h1" data-c-font-weight="600" data-c-color="white" data-c-margin="top(triple)">
+                    Talent Cloud <img src="/img/maple-leaf.svg" alt="The Canadian maple leaf.">
+                </h1>
+                <button data-c-button="outline(white)" data-c-margin="tb(triple)" data-c-radius="rounded">
+                    Sign Up
+                </button>
+            </div>
+        </header>
+
+        <div class="cta" data-c-padding="tb(normal)">
+            <div data-c-container="large" data-c-align="base(center)">
+                <p data-c-color="white" data-c-margin="tb(half)">Welcome to the <span data-c-font-weight="bold">HR Advisor</span> portal! Looking for the Applicant portal? <a href="/" title="">Head back</a>.</p>
+            </div>
+        </div>
+
+        <div class="contained-background">
+            <div data-c-container="large">
+                <div data-c-grid>
+                    <div data-c-grid-item="tl(3of5) equal-col">
+                        <div data-c-padding="tb(triple)">
+                            <h2 data-c-font-size="h2" data-c-margin="bottom(normal)">As an HR Advisor on Talent Cloud...</h2>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quidem minus veniam a nam voluptatem repellat ab repudiandae asperiores consequuntur tenetur modi. Excepturi nobis fugit ea fugiat voluptatem sed minima?</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quidem minus veniam a nam voluptatem repellat ab repudiandae asperiores consequuntur tenetur modi. Excepturi nobis fugit ea fugiat voluptatem sed minima?</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quidem minus veniam a nam voluptatem repellat ab repudiandae asperiores consequuntur tenetur modi. Excepturi nobis fugit ea fugiat voluptatem sed minima?</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quidem minus veniam a nam voluptatem repellat ab repudiandae asperiores consequuntur tenetur modi. Excepturi nobis fugit ea fugiat voluptatem sed minima?</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div data-c-grid-item="tl(2of5) equal-col" class="right-background">
+                        <div data-c-padding="tb(triple)">
+                            <h2 data-c-font-size="h2" data-c-margin="bottom(normal)">Did You Know?</h2>
+                            <p>Talent Cloud performs regular user research to help develop its products.</p>
+                            <hr data-c-margin="tb(normal)">
+                            <p>Talent Cloud works with HR teams to ensure policy compliance while focusing on improving the experience for all parties involved.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <div data-c-overlay="black(90)" style="background-image: url('https://images.unsplash.com/photo-1542353626-ad432b73153f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');" data-c-padding="tb(triple)">
+            <div data-c-container="large">
+                <div data-c-grid="gutter">
+                    <div data-c-grid-item="tl(2of5) equal-col">
+                        <div data-c-card data-c-color="white" data-c-background="c2(100)" data-c-radius="rounded" data-c-padding="all(double)">
+                            <h2 data-c-font-size="h2" data-c-margin="bottom(normal)">Manager Ashley Says...</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium placeat soluta sed ipsam velit temporibus quae expedita. Ab reiciendis totam voluptate voluptas quibusdam repudiandae, officia accusamus? Quaerat praesentium at ex.</p>
+                        </div>
+                    </div>
+                    <div data-c-grid-item="tl(3of5) equal-col">
+                        <div data-c-card data-c-background="white(100)" data-c-radius="rounded" data-c-padding="all(double)">
+                            <h2 data-c-font-size="h2" data-c-margin="bottom(normal)">What's Next for HR &amp; Talent Cloud</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati inventore placeat nemo eveniet atque? Illum maxime est cumque unde ipsam repellat eum. Voluptate, officia laborum esse saepe commodi quas adipisci!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contained-background">
+            <div data-c-container="large">
+                <div data-c-grid>
+                    <div data-c-grid-item="tl(2of5) equal-col" class="left-background">
+                        <div data-c-padding="tb(triple)">
+                            <h2 data-c-font-size="h2" data-c-margin="bottom(normal)">Resources for HR</h2>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quidem minus veniam a nam voluptatem repellat ab repudiandae asperiores consequuntur tenetur modi. Excepturi nobis fugit ea fugiat voluptatem sed minima?</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quidem minus veniam a nam voluptatem repellat ab repudiandae asperiores consequuntur tenetur modi. Excepturi nobis fugit ea fugiat voluptatem sed minima?</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quidem minus veniam a nam voluptatem repellat ab repudiandae asperiores consequuntur tenetur modi. Excepturi nobis fugit ea fugiat voluptatem sed minima?</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div data-c-grid-item="tl(3of5) equal-col">
+                        <div data-c-padding="tb(triple)">
+                            <h2 data-c-font-size="h2" data-c-margin="bottom(normal)">Events &amp; Engagement</h2>
+                            <p data-c-margin="bottom(double)">Think your team could benefit from some one-on-one time with Talent Cloud? We offer unique engagement workshops and events to help both your HR team and your hiring managers learn more about Talent Cloud and how it can benefit them.</p>
+                            <div data-c-grid="gutter">
+                                <div data-c-grid-item="tl(1of2)">
+                                    <div data-c-border="all(thin, solid, c1)" data-c-radius="rounded" data-c-padding="normal"
+                                    data-c-color="c1">
+                                        <h3 data-c-font-weight="bold" data-c-font-size="h4" data-c-margin="bottom(normal)">Talent Cloud Demo</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nam eveniet nulla quod odit aperiam officia quasi id! Dignissimos recusandae autem incidunt laudantium molestias libero doloremque nam, in ex qui!</p>
+                                    </div>
+                                </div>
+                                <div data-c-grid-item="tl(1of2)">
+                                    <div data-c-border="all(thin, solid, c1)" data-c-radius="rounded" data-c-padding="normal"
+                                    data-c-color="c1">
+                                        <h3 data-c-font-weight="bold" data-c-font-size="h4" data-c-margin="bottom(normal)">Manager Engagement</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nam eveniet nulla quod odit aperiam officia quasi id! Dignissimos recusandae autem incidunt laudantium molestias libero doloremque nam, in ex qui!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-c-align="base(center) tl(right)">
+                                <p data-c-margin="top(double)">
+                                    <a href="/" title="" data-c-button="solid(c1)" data-c-radius="rounded">Request an Event</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer data-c-background="black(100)" data-c-padding="tb(triple)">
+            <div data-c-container="large" data-c-align="base(center)">
+                <p data-c-color="white" data-c-font-weight="bold" data-c-font-size="h3">FOOTER</p>
+            </div>
+        </footer>
 
         {# Clone's JavaScript #}
         <script src="js/clone/clone.min.js"></script>
